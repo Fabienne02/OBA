@@ -24,6 +24,8 @@ fetch(url, config)
   });
 
   const root = document.getElementById("root")
+  const book = document.getElementById("book")
+  const info = document.getElementById("info")
 
 // render data
 function render(data) {
@@ -31,7 +33,7 @@ function render(data) {
   console.dir(results.length);
   results.forEach((item, i) => {
 
-    const article = document.createElement('article')
+     const article = document.createElement('article')
       article.setAttribute('class', 'article')
 
     //   const h2 = document.createElement('h2')
@@ -43,6 +45,8 @@ function render(data) {
       const img = document.createElement('img')
       img.src = `${item.coverimages ? item.coverimages[1] : 'Geen samenvatting'} `
 
+      book.src = `${item.coverimages[1]}`
+
     //   const textdiv = document.createElement('div')
     //   textdiv.setAttribute('class', 'text')
 
@@ -51,15 +55,39 @@ function render(data) {
     //   const bord = document.createAttribute("img")
     //   img.src= "/images/bord.png"
 
+    
+    img.onclick = function click() {
+         console.log(img)
+      book.src = img.src
+
+     }
+
+
+
       root.appendChild(article)
     //   article.appendChild(textdiv)
     //   textdiv.appendChild(h2)
     //   textdiv.appendChild(p)
+
+
       article.appendChild(borddiv)
       borddiv.appendChild(img)
     
 
   })
+
+  const infotitle = document.createElement("h2")
+  const title = results[1].titles[0]
+  infotitle.setAttribute('class', 'infoh2')
+  infotitle.textContent = title
+  info.appendChild(infotitle)
+
+  const infotext = document.createElement("p")
+  const text = results[1].summaries[0]
+  infotext.setAttribute('class', 'infop')
+  infotext.textContent = text
+  info.appendChild(infotext)
+
 
 }
 
