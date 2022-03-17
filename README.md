@@ -1,4 +1,4 @@
-# OBA Porject-1 📕
+# OBA Project-1 📕
 
 [ 📕 Live link naar product](https://Fabienne02.github.io/OBA/index.html)
 
