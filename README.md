@@ -8,6 +8,7 @@ Hierbij wilde ik een omgeving ontwerpen waarbij het interface zo vriendelijk mog
 Ook streefde ik naar een uiterlijk dat afwijkte van de standaard lijst interface die je vaak terug ziet in bibliotheken.
 
 <img src="./assets/oba-ontwerp.png" height="700" alt="banner">
+<img src="./assets/app-ontwerp.jpg" height="700" alt="banner">
 
 ## Table of contents
   - [Table of contents](#table-of-contents)
