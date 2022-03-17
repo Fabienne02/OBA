@@ -1,7 +1,6 @@
 # OBA Porject-1 📕
-<img src="https://github.com/Fabienne02/Quotes/blob/main/assets/Focus quote.jpg" width=530 >
 
-[ 🪅 Live link naar product](https://Fabienne02.github.io/OBA/index.html)
+[ 📕 Live link naar product](https://Fabienne02.github.io/OBA/index.html)
 
 # Introduction
 Voor de OBA heb ik een applicatie ontworpen. Hierbij heb ik als doelgroep + Userstory genomen: <i>Voeding en diëtiek</i>
