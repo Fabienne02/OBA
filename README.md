@@ -42,7 +42,7 @@ Deze applicatie is gecodeerd in HTML, CSS en Javascript
 <ul>
   <li>Hover interacties voor een speelse inrichting</li>
   <li>Werkende zoekbalk</li>
-  <li>Informatie over sport en voeding<li>
+  <li>Informatie over sport en voeding</li>
 </ul>
 
 ## Installing
