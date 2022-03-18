@@ -22,12 +22,13 @@ Ook streefde ik naar een uiterlijk dat afwijkte van de standaard lijst interface
   - [Author](#author)
 
 ## About
-**Een boekenzoeker speciaal ingericht voor voedings informatie**
+**Een boekenzoeker speciaal ingericht voor voedings informatie**<br>
 Deze applicatie maakt gebruik van een api: [OBA Api](https://zoeken.oba.nl/api/v1/search/?q=%22voeding%22&refine=true&authorization=16c19e6083308c984c452600134989ba&sort=act_dt_asc&output=json)
 
-Deze api staat vol met boeken en kan gebruikt worden om te filteren en specafieke catogorien te tonen. 
-De api vereist een aanvraag van tijdelijk toegang met deze [link](https://cors-anywhere.herokuapp.com/corsdemo)
-En de bijbehoorende api key.
+
+Deze api staat vol met boeken en kan gebruikt worden om te filteren en specafieke catogorien te tonen. <br>
+De api vereist een aanvraag van tijdelijk toegang met deze [link](https://cors-anywhere.herokuapp.com/corsdemo)<br>
+En de bijbehoorende api key.<br>
 Maak zelfs gebruik van deze api met deze [start code](https://github.com/cmda-minor-web/project-1-2021/blob/main/example/oba-api/static/js/app.js)
 
 ## Gecodeerd met
