@@ -37,6 +37,7 @@ Deze applicatie is gecodeerd in HTML, CSS en Javascript
 ## Features
 <ul>
   <li>Klik op jouw boek van interesse om meer te weten te komen</li>
+  <li>Focust state op jouw gekozen boek</li>
 </ul>
 
 ## Wishlist
