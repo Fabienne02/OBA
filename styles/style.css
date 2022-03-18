@@ -8,11 +8,9 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  /* max-width: 900px; */
 }
 
-/* #background {
-  width: 100vw;
-} */
 header {
   display: flex;
   justify-content: center;
@@ -35,15 +33,6 @@ body header img:nth-of-type(1) {
   left: 1em;
   top: 1em;
 }
-
-body header img:nth-of-type(2) {
-  margin-top: 30em;
-  margin-left: -40em;
-}
-
-/* body main section:nth-of-type(1) {
-  position: fixed;
-} */
 
 body main section:nth-of-type(1) img:nth-of-type(1) {
   margin-left: 40%;
@@ -79,70 +68,16 @@ body main section:nth-of-type(1) div {
   position: fixed;
   background-color: #f9f3ee;
 }
-/* body main article:nth-of-type(1) {
-  margin-left: 20em;
-} */
-
-/* body main article:nth-of-type(1) img {
-  position: absolute;
-  margin-top: -35.7em;
-  margin-left: 4.5em;
-  z-index: 200;
-  height: 400px;
-  width: 265px;
-}
-
-body main article:nth-of-type(1) h2 {
-  position: absolute;
-  margin-top: -10.5em;
-  margin-left: -4em;
-  z-index: 200;
-  color: #ffffff;
-  font-size: 3rem;
-}
-
-body main article:nth-of-type(1) p {
-  position: absolute;
-  margin-top: -17em;
-  margin-left: -8em;
-  z-index: 200;
-  color: #ffffff;
-  font-size: 1.5rem;
-  width: 250px;
-} */
 
 body main article {
   width: 40%;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
-  /* height: 700px; */
   height: 500px;
   font-family: Avenir, Arial, sans-serif;
 }
 
-/* 
-body main article div p {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
-  padding: 2em;
-  opacity: 83%;
-}
-
-body main article div h2 {
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-}
-
-.text {
-  background-color: #9c937e;
-  border-radius: 1em;
-  opacity: 83%;
-} */
 #book {
   height: 400px;
   width: 265px;
@@ -186,16 +121,3 @@ body main article div h2 {
   width: 70%;
   font-size: 1.3rem;
 }
-
-/* RESPONSIVENESS */
-/* @media screen and (min-width: 600px) {
-    body main article:not(article:first-of-type {
-    flex: 1 1 calc(50% - 2rem);
-  }
-}
-
-@media screen and (min-width: 100px) {
-    body main article:not(article:first-of-type {
-    flex: 1 1 calc(33% - 2rem);
-  }
-} */

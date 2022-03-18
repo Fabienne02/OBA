@@ -36,24 +36,13 @@ function render(data) {
      const article = document.createElement('article')
       article.setAttribute('class', 'article')
 
-    //   const h2 = document.createElement('h2')
-    //   h2.textContent = `${item.titles[0]}`
-
-    //   const p = document.createElement('p')
-    //   p.textContent = `${item.summaries ? item.summaries[0] : 'Geen samenvatting'}`
-
       const img = document.createElement('img')
       img.src = `${item.coverimages ? item.coverimages[1] : 'Geen samenvatting'} `
 
       book.src = `${item.coverimages[1]}`
 
-    //   const textdiv = document.createElement('div')
-    //   textdiv.setAttribute('class', 'text')
-
       const borddiv = document.createElement('div')
       borddiv.setAttribute('class', 'bord')
-    //   const bord = document.createAttribute("img")
-    //   img.src= "/images/bord.png"
 
     
     img.onclick = function click() {
@@ -62,14 +51,7 @@ function render(data) {
 
      }
 
-
-
       root.appendChild(article)
-    //   article.appendChild(textdiv)
-    //   textdiv.appendChild(h2)
-    //   textdiv.appendChild(p)
-
-
       article.appendChild(borddiv)
       borddiv.appendChild(img)
     
@@ -93,9 +75,3 @@ function render(data) {
 
 
 
-
-// const data =  fetch(url)
-// const response =  data.json()
-// const quote = response.data
-
-// console.log(response.data)
