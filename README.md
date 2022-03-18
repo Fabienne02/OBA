@@ -51,7 +51,7 @@ Deze applicatie is gecodeerd in HTML, CSS en Javascript
 ```
 git clone https://github.com/Fabienne02/OBA.git
 ```
-2. Open de folder in jouw code applicatie [Zoals VSCODE](https://code.visualstudio.com/Download)
+2. Open de folder in jouw code applicatie zoals [VSCODE](https://code.visualstudio.com/Download)
 3. Start een live port en bekijk het project in jouw browser
 
 ## Sources
